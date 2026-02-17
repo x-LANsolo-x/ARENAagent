@@ -1,0 +1,22 @@
+# Code Owners for ArenaAgent
+# These users will be automatically requested for review when someone opens a PR
+
+# Default owners for everything in the repo
+* @x-LANsolo-x
+
+# Core implementation
+/arenaagent/core/ @x-LANsolo-x
+/arenaagent/models/ @x-LANsolo-x
+
+# Configuration and session management
+/arenaagent/config/ @x-LANsolo-x
+/arenaagent/session/ @x-LANsolo-x
+
+# Tests - require approval before merging
+/tests/ @x-LANsolo-x
+
+# Documentation - can be updated with lighter review
+*.md @x-LANsolo-x
+
+# CI/CD and workflows
+/.github/ @x-LANsolo-x
