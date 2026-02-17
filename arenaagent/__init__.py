@@ -1,15 +1,19 @@
-"""
-ArenaAgent - Free AI Coding Assistant using LM Arena
+"""ArenaAgent - Free AI coding assistant using LM Arena.
 
-A local Python CLI application that connects to LM Arena via persistent browser 
-automation, maintains full conversation and execution context locally, executes 
-code autonomously, and handles errors through model feedback loops.
+A powerful, local-first AI coding assistant that uses LM Arena's free API
+for intelligent code generation, debugging, and assistance.
 """
 
 __version__ = "0.1.0"
 __author__ = "ArenaAgent Team"
 __license__ = "MIT"
 
-from arenaagent.core.agent import AgentCore
+# Core models are available - other components will be added in later phases
+from arenaagent.models import Message, Conversation, CodeChange, ExecutionResult
 
-__all__ = ["AgentCore"]
+__all__ = [
+    "Message",
+    "Conversation",
+    "CodeChange",
+    "ExecutionResult",
+]
